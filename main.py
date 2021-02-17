@@ -32,7 +32,7 @@ def groupthingy():
             if json['owner'] == None:
                 if json['publicEntryAllowed'] == True:
                     results = open('results.txt', 'a')
-                    results.write(f"Group: {current_group} is claimable!\n")
+                    results.write(f"Group: {current_group} is claimable!\n Link : https://www.roblox.com/groups/{current_group}/")
                     results.close()
 
             else:
