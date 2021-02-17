@@ -34,6 +34,7 @@ def groupthingy():
                     results = open('results.txt', 'a')
                     results.write(f"Group: {current_group} is claimable!\n Link : https://www.roblox.com/groups/{current_group}/")
                     results.close()
+                    print(f"Successfully found a group. Group: {current_group} is claimable!\n")
 
             else:
                 print(f"Group: {current_group} has a owner.")
